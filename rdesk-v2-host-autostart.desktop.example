@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=rdesk V2 Host
+Comment=Start the authenticated WebRTC remote desktop host after X11 login
+Exec=/opt/rdesk/start_rdesk_v2_ubuntu.sh host
+Path=/opt/rdesk
+Terminal=false
+X-GNOME-Autostart-enabled=true

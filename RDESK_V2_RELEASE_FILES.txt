@@ -1,0 +1,32 @@
+rdesk V2 curated release contents
+
+Runtime
+  rdesk_v2.py
+  rdesk_v2_core.py
+  rdesk_v2_launcher.py
+  rdesk_v2_platform.py
+  rdesk_v2_profiles.py
+  rdesk_v2_tunnel.py
+  p2p.py
+  p2p_secrect.py
+  p2p_server.py
+
+Deployment
+  README.md
+  requirements-v2.txt
+  install_ubuntu20_v2.sh
+  start_rdesk_v2_ubuntu.sh
+  start_windows.bat
+  rdesk-v2-host-autostart.desktop.example
+
+Bundled UI font
+  assets/fonts/NotoSansSC.ttf
+  assets/fonts/OFL.txt
+
+Verification
+  test_rdesk_v2_integration.py
+
+Intentionally excluded from V2 releases
+  Legacy V1 sources and launchers, old update archives, build caches,
+  Rust experiments, obsolete P2P diagnostics, reverse-relay experiments,
+  local profiles/known-hosts, and every file under deploy/ (including keys).
